@@ -32,7 +32,7 @@ gem 'simple_form'
 
 # Use unicorn as the app server
 # gem 'unicorn'
-
+gem 'roadie'
 # Deploy with Capistrano
  gem 'capistrano'
 
