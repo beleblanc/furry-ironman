@@ -1,0 +1,45 @@
+!!! 5
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+    %meta{:name=> "viewport", :content=>"width=device-width,initital-scale=1.0"}
+    %title= content_for?(:title) ? yield(:title) : "Caultive Solutions | Brewing custom solutions for our clients"
+    = csrf_meta_tags
+    / Le HTML5 shim, for IE6-8 support of HTML elements
+    /[if lt IE 9]
+    /= javascript_include_tag "http://html5shim.googlecode.com/svn/trunk/html5.js"
+    / Le styles
+    = stylesheet_link_tag "application", :media => "all"
+    / Le fav and touch icons
+  %body#wrapper
+    %header
+      %section
+        %nav#header_nav
+          %ul
+            %li.active
+              =link_to 'services', "#what"
+            .lt.seperator
+              |
+            %li
+              =link_to 'projects', "#projects"
+
+            .lt.seperator
+              |
+            %li
+              =link_to 'clients', "#clients"
+            .lt.seperator
+              |
+            %li
+              =link_to 'about', "#about"
+            .lt.seperator
+              |
+            %li
+              =link_to 'contact', "#contact"
+        =link_to '/#' do
+          = image_tag 'logo.png', :alt => "Caultive Solutions Logo",:class => "logo"
+        
+    = yield
+
+
+    %footer
+      = javascript_include_tag 'application'
