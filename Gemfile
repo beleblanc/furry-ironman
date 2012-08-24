@@ -15,7 +15,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
 
   #gem 'compass-rails'
-
+  gem 'haml-rails'
   gem 'therubyracer', :platform => :ruby
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -25,7 +25,7 @@ end
 
 gem 'jquery-rails'
 gem 'simple_form'
-gem 'haml-rails'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
