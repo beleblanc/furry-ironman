@@ -17,25 +17,6 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="pages_controller.rb" pinned="false" current="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="15" column="26" selection-start="400" selection-end="400" vertical-scroll-proportion="0.32786885">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="Caultive" />
   </component>
@@ -95,10 +76,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="30" selection-start="549" selection-end="549" vertical-scroll-proportion="0.39736345">
+            <state line="13" column="46" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="2" selection-start="306" selection-end="306" vertical-scroll-proportion="0.24105461">
               <folding />
             </state>
           </provider>
@@ -126,7 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/form.css.scss" />
         <option value="$PROJECT_DIR$/app/views/pages/submit_contact.js.erb" />
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.haml" />
@@ -142,6 +131,7 @@
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
       </list>
     </option>
   </component>
@@ -845,20 +835,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="400" selection-end="400" vertical-scroll-proportion="0.32786885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/submit_contact.js.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="55" selection-end="55" vertical-scroll-proportion="0.018539976">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/contact_confirmation.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="1" selection-start="49" selection-end="49" vertical-scroll-proportion="-1.92">
@@ -950,9 +926,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="79" selection-start="293" selection-end="293" vertical-scroll-proportion="0.26229507">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="549" selection-end="549" vertical-scroll-proportion="0.39736345">
+        <state line="13" column="46" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="2" selection-start="306" selection-end="306" vertical-scroll-proportion="0.24105461">
           <folding />
         </state>
       </provider>
