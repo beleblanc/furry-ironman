@@ -8,10 +8,13 @@ class ContactMailer < ActionMailer::Base
   #
   def contact_confirmation(message, email,name, company)
     @name = name
+    @message = message
+    @email = email
+    @company = company
 
-    mail to: email, subject: "Contact Confirmation"
+    mail to: "#{email}", subject: "Contact Confirmation"
 
-    notify_caultive(message, name,email, company).deliver
+
   end
 
   def notify_caultive(message, name, email, company)
