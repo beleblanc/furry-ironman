@@ -153,6 +153,7 @@ DEPENDENCIES
   capistrano
   coffee-rails (~> 3.2.1)
   compass-rails
+  haml
   haml-rails
   jquery-rails
   rails (= 3.2.6)

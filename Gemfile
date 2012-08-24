@@ -20,7 +20,7 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
-
+gem 'haml'
 gem 'jquery-rails'
 gem 'simple_form'
 
