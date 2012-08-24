@@ -31,7 +31,7 @@ gem 'simple_form'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 gem 'roadie'
 # Deploy with Capistrano
  gem 'capistrano'
