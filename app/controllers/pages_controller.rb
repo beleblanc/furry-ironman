@@ -12,5 +12,10 @@ class PagesController < ApplicationController
     @email = params[:contact_us][:email]
     @message = params[:contact_us][:message]
     ContactMailer.contact_confirmation(@message,@email,@name,@company).deliver
+
+    respond_to do |format|
+      format.js
+
+    end
   end
 end

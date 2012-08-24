@@ -11,13 +11,14 @@ class ContactMailer < ActionMailer::Base
 
     mail to: email, subject: "Contact Confirmation"
 
-    notify_caultive(message, name,email, company)
+    notify_caultive(message, name,email, company).deliver
   end
 
   def notify_caultive(message, name, email, company)
     @message = message
     @email = email
     @name = name
+    @company = company
 
     mail to: "info@caultive.com", subject: "Contact Request from #{name}, @ #{company}"
   end

@@ -17,7 +17,7 @@
         %h4 Web & Mobile Design
         =image_tag 'compass-promo.png',:class => 'promo-image'
         %p
-          Web presence matters in todays internet and mobile driven markets.
+          Web presence matters in today's internet and mobile driven markets.
           At caultive we produce designs for both mobile and web platforms that speak to your target markets.
           Not only do we do extensive research in your market, we ensure that our designs follow best usability practices for your clients so that they can find the information that they are looking for.
 
@@ -66,7 +66,7 @@
         %h4 Non-Governmentals
         =image_tag 'ngo.png', :class => 'promo-image'
         %p
-
+          We have also dealt with small local NGOs who wanted a web presence, as well as international organizations and governments implementing small and large scale research projects.
       .portfolio-item
         %h4 Established Businesses
         =image_tag 'corporation.png', :class => 'promo-image'
@@ -94,10 +94,10 @@
           ICAP Swaziland needed a system to would take all of their field data and make it accessible to their office staff. On top it also needed to generate reports on the progress of the research. Working closely with them, we were implement a solution that answered to their needs up until the end of the research.
 
       .section-column.rt
-        =image_tag 'icap_promo.png', title:"Web App design/development" , class: "built-image"
-        %h4 SHIMS Research Database
+        =image_tag 'rosecraft_promo.png', title:"Site Redesign" , class: "built-image"
+        %h4 Rosecraft Site Redesign
         %p
-          ICAP Swaziland needed a system to would take all of their field data and make it accessible to their office staff. On top it also needed to generate reports on the progress of the research. Working closely with them, we were implement a solution that answered to their needs up until the end of the research.
+          Rosecraft wanted a site that matched their new brand identity, a minimalist design that was easy to understand. Working closely with the company's owner we were able to construct a site and back-end that has made it easy for the owner and her staff to manage.
 %section.section
   %a{id: 'clients'}
     %h1 Clients
@@ -147,14 +147,15 @@
   %a{id: 'contact'}
     %h1 Contact Us
   .well
-    =simple_form_for 'contact_us', :remote => true, :url => "/pages/submit_contact", :html=>{:method=> :post,:class=>"form-horizontal"} do |f|
-      =f.input "name", as: :string , input_html: {class: "input-large"},:label=> "Your name"
+    %h4 Leave us a message and we will get back to you as soon as one of our agents is available to contact you.
+    =simple_form_for 'contact_us', :remote => true, :url => "/pages/submit_contact", :html=>{:method=> :post,:class=>"form-horizontal",:id=>"contactus"} do |f|
+      =f.input "name", as: :string , input_html: {class: "input-xxlarge"},:label=> "Your name"
       .cf
-      =f.input "company", as: :string,:label=> "Your company"
+      =f.input "company", as: :string,:label=> "Your company" , input_html: {class: "input-xxlarge"}
       .cf
-      =f.input "email", as: :string,:label=> "Your E-mail"
+      =f.input "email", as: :string,:label=> "Your e-mail", input_html: {class: "input-xxlarge"}
       .cf
-      =f.input "message", as: :text, input_html: {rows: 8},:label=> "Message"
+      =f.input "message", as: :text, input_html: {rows: 8,class:"input-xxlarge"},:label=> "Message"
       .cf
       =f.hidden_field "check_me", :value => 0
-      =f.submit "Send request", wrapper_html: {class:"rt"}
+      =f.submit "Send", wrapper_html: {class:"rt"}

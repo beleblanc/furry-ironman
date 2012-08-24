@@ -1,5 +1,12 @@
 form {
   margin: 0 0 18px;
+  text-align: center;
+}
+
+.input {
+
+  padding:10px;
+
 }
 fieldset {
   padding: 0;
@@ -67,7 +74,7 @@ input[type="color"],
 }
 input,
 textarea {
-  width: 210px;
+  width: 500px;
 }
 textarea {
   height: auto;

@@ -17,63 +17,61 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="pages_controller.rb" pinned="false" current="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="15" column="26" selection-start="400" selection-end="400" vertical-scroll-proportion="0.32786885">
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Caultive" />
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="home.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="44" selection-start="3194" selection-end="3194" vertical-scroll-proportion="-43.52">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="40" selection-start="1268" selection-end="1311" vertical-scroll-proportion="-29.44">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pages.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pages.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="107" column="29" selection-start="2570" selection-end="2570" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="contact_mailer.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/mailers/contact_mailer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="48" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact_confirmation.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/contact_confirmation.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="18" selection-start="25" selection-end="25" vertical-scroll-proportion="-1.28">
-              <folding>
-                <marker date="1344348111000" expanded="true" signature="0:5" placeholder="%body" />
-                <marker date="1344348111000" expanded="true" signature="7:91" placeholder="= @greeting + &quot;, find me in app/views/contact_mailer/contact_confirmation.html.haml&quot;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="notify_caultive.text.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/notify_caultive.text.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pages_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="60" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="36" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="13" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0">
+            <state line="16" column="57" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,28 +80,26 @@
       <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="65" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.57894737">
+            <state line="43" column="56" selection-start="1525" selection-end="1531" vertical-scroll-proportion="0.7561548">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="notify_caultive.text.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/notify_caultive.text.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="53" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+            <state line="4" column="27" selection-start="135" selection-end="135" vertical-scroll-proportion="-2.56">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <file leaf-file-name="contact_confirmation.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/contact_confirmation.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="66" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="3" column="1" selection-start="49" selection-end="49" vertical-scroll-proportion="-1.92">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -121,22 +117,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/pages/submit_contact.js.erb" />
-        <option value="$PROJECT_DIR$/app/views/pages/home.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/pages.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/form.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/ketchup.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/mailers/contact_mailer.rb" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/config/unicorn_init.sh" />
         <option value="$PROJECT_DIR$/config/unicorn.rb" />
+        <option value="$PROJECT_DIR$/config/unicorn_init.sh" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/form.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/pages/submit_contact.js.erb" />
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
-        <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/app/views/pages/home.html.haml" />
+        <option value="$PROJECT_DIR$/public/404.html.haml" />
+        <option value="$PROJECT_DIR$/public/404.html" />
+        <option value="$PROJECT_DIR$/app/views/contact_mailer/contact_confirmation.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/contact_mailer/notify_caultive.text.haml" />
         <option value="$PROJECT_DIR$/app/views/contact_mailer/contact_confirmation.html.haml" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/app/views/contact_mailer/notify_caultive.text.erb" />
+        <option value="$PROJECT_DIR$/app/mailers/contact_mailer.rb" />
+        <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/pages.css.scss" />
       </list>
     </option>
   </component>
@@ -149,8 +145,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1433" />
-    <option name="height" value="1058" />
+    <option name="width" value="1356" />
+    <option name="height" value="1025" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -178,6 +174,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
@@ -207,7 +204,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -222,10 +219,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="environments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -244,6 +237,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Caultive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Caultive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -358,32 +377,9 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Caultive" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Caultive" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -744,20 +740,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1433" height="1058" extended-state="0" />
+    <frame x="0" y="22" width="1356" height="1025" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882413" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286638" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24657534" sideWeight="0.67117584" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23435114" sideWeight="0.67133623" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39941263" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16233091" sideWeight="0.9989551" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.375" sideWeight="0.9984733" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -822,121 +818,104 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p290/gems/capistrano-2.12.0/lib/capistrano/recipes/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="52" selection-start="836" selection-end="836" vertical-scroll-proportion="-16.64">
-          <folding />
-        </state>
+        <state line="212" column="64" selection-start="9031" selection-end="9031" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.haml">
+    <entry file="file://$PROJECT_DIR$/config/unicorn.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="16" selection-start="4127" selection-end="4127" vertical-scroll-proportion="-15.64">
-          <folding />
-        </state>
+        <state line="5" column="42" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0877193" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pages.css.scss">
+    <entry file="file://$PROJECT_DIR$/config/unicorn_init.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="233" column="55" selection-start="6920" selection-end="6920" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="10" column="88" selection-start="347" selection-end="347" vertical-scroll-proportion="0.01713062" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/form.css.scss">
+    <entry file="file://$PROJECT_DIR$/config/database.example.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="626" column="63" selection-start="14385" selection-end="14385" vertical-scroll-proportion="-13.038462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/ketchup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="156" selection-start="12385" selection-end="12385" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="66" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/notify_caultive.text.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="24" column="72" selection-start="575" selection-end="575" vertical-scroll-proportion="0.4111349" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="53" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+        <state line="11" column="53" selection-start="376" selection-end="376" vertical-scroll-proportion="0.18843684" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/form.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="47" selection-end="47" vertical-scroll-proportion="0.036405005">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/contact_mailer.rb">
+    <entry file="file://$PROJECT_DIR$/public/404.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="48" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
+        <state line="26" column="50" selection-start="728" selection-end="728" vertical-scroll-proportion="0.48711944">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="60" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+        <state line="15" column="26" selection-start="400" selection-end="400" vertical-scroll-proportion="0.32786885">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/contact_confirmation.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/pages/submit_contact.js.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="25" selection-end="25" vertical-scroll-proportion="-1.28">
-          <folding>
-            <marker date="1344348111000" expanded="true" signature="0:5" placeholder="%body" />
-            <marker date="1344348111000" expanded="true" signature="7:91" placeholder="= @greeting + &quot;, find me in app/views/contact_mailer/contact_confirmation.html.haml&quot;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0">
+        <state line="1" column="28" selection-start="55" selection-end="55" vertical-scroll-proportion="0.018539976">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/unicorn.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/contact_confirmation.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="43" selection-start="237" selection-end="237" vertical-scroll-proportion="0.15789473">
+        <state line="3" column="1" selection-start="49" selection-end="49" vertical-scroll-proportion="-1.92">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/unicorn_init.sh">
+    <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/notify_caultive.text.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="11" selection-start="612" selection-end="612" vertical-scroll-proportion="-0.15789473">
+        <state line="4" column="27" selection-start="135" selection-end="135" vertical-scroll-proportion="-2.56">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+    <entry file="file://$PROJECT_DIR$/app/mailers/contact_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="36" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
+        <state line="16" column="57" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="44" selection-start="3194" selection-end="3194" vertical-scroll-proportion="-43.52">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="40" selection-start="1268" selection-end="1311" vertical-scroll-proportion="-29.44">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pages.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="29" selection-start="2570" selection-end="2570" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="65" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.57894737">
+        <state line="43" column="56" selection-start="1525" selection-end="1531" vertical-scroll-proportion="0.7561548">
           <folding />
         </state>
       </provider>
