@@ -11,6 +11,7 @@ class PagesController < ApplicationController
     @company = params[:contact_us][:company]
     @email = params[:contact_us][:email]
     @message = params[:contact_us][:message]
+
     ContactMailer.contact_confirmation(@message,@email,@name,@company).deliver
     ContactMailer.notify_caultive(@message,@name,@email,@company).deliver
 

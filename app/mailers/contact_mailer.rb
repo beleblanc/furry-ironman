@@ -1,5 +1,5 @@
 class ContactMailer < ActionMailer::Base
-  default from: "info@caultive.com"
+ # default from: "info@caultive.com"
 
   # Subject can be set in your I18n file at config/locales/en.yml
   # with the following lookup:
@@ -12,7 +12,7 @@ class ContactMailer < ActionMailer::Base
     @email = email
     @company = company
 
-    mail to: "#{email}", subject: "Contact Confirmation"
+    mail to: "#{email}",from:"info@caultive.com", subject: "Contact Confirmation"
 
 
   end
@@ -23,6 +23,6 @@ class ContactMailer < ActionMailer::Base
     @name = name
     @company = company
 
-    mail to: "info@caultive.com", subject: "Contact Request from #{name}, @ #{company}"
+    mail to: "info@caultive.com", from: email, subject: "Contact Request from #{name}, @ #{company}"
   end
 end
