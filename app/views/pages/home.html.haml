@@ -15,7 +15,7 @@
       %h3 What we offer
       .portfolio-item
         %h4 Web & Mobile Design
-        =image_tag 'compass-promo.png',:class => 'promo-image'
+        =image_tag 'compass-promo.png',:class => 'promo-image',alt: "Web and mobile design"
         %p
           Web presence matters in today's internet and mobile driven markets.
           At caultive we produce designs for both mobile and web platforms that speak to your target markets.
@@ -23,14 +23,14 @@
 
       .portfolio-item
         %h4 Web Development
-        =image_tag 'laptop-promo.png',:class => 'promo-image'
+        =image_tag 'laptop-promo.png',:class => 'promo-image',alt: "Web Development"
         %p
           Whether you have a web application project for the world or your internal network,
           caultive can rapidly develop and deploy an application that will answer to your needs.
           Using the most modern technologies we ensure that your project is delivered on time and ahead of your competition.
       .portfolio-item
         %h4 Mobile Development
-        =image_tag 'mobile-promo.png',:class => 'promo-image'
+        =image_tag 'mobile-promo.png',:class => 'promo-image', alt: "Mobile Development"
         %p
           Modern companies understand that customers now have access to information in a number of places,
           and the fastest growing is the mobile-web and mobile-app market.
@@ -41,7 +41,7 @@
       =image_tag 'code_preview.png', :class =>"rt promo-pull"
       .portfolio-item
         %h4 Modern Methods
-        =image_tag 'ruby-promo.png', :class => 'promo-image'
+        =image_tag 'ruby-promo.png', :class => 'promo-image',alt: "Ruby on Rails"
         %p
           As the internet grows, so do the technologies supporting it. This is why we constantly keep our methods flexible with the languages and frameworks that best answer to our customers needs.
           We are primarily a Ruby / Ruby on Rails development shop, but this has not stopped us from working with legacy applications and other frameworks for our clients.
@@ -57,19 +57,19 @@
       %h3 Who do we offer services to
       .portfolio-item
         %h4 Start-Ups
-        =image_tag 'startup.png', :class => 'promo-image'
+        =image_tag 'startup.png', :class => 'promo-image', alt:"Start up design"
         %p
           Have a great idea for the web or mobile devices? We can help you bring your idea/product to the rest of the world in a fast and efficient manner. We not only do your design and development, we can
           also help with a content strategy that will reach your target market.
 
       .portfolio-item
         %h4 Non-Governmentals
-        =image_tag 'ngo.png', :class => 'promo-image'
+        =image_tag 'ngo.png', :class => 'promo-image', alt: "Strategies for non-profits"
         %p
           We have dealt with small local NGOs who wanted a web presence, as well as international organizations and governments in the implementation of small and large scale research projects.
       .portfolio-item
         %h4 Established Businesses
-        =image_tag 'corporation.png', :class => 'promo-image'
+        =image_tag 'corporation.png', :class => 'promo-image', alt: "Corporate design and development"
         %p
           Launching a new product? Want to offer your services on the world wide web? Or looking for a site redesign to improve your web presence? At caultive we deal with both small and large businesses to improve their presence on the web.
           =link_to 'Contact us','#contact'
@@ -82,19 +82,19 @@
   .well
     #built-by-us
       .section-column.rt
-        =image_tag 'bgp_promo.png', title:"Big Game Parks site redesign", class: "built-image"
+        =image_tag 'bgp_promo.png', title:"Big Game Parks site redesign", class: "built-image", alt:"Big Game Parks Design"
         %h4 Big Game Parks Site Relaunch
         %p
           In partnership with Truth Advertising, using a legacy CMS, we were able to work with the amazing people at Big Game Parks to relaunch their site so that it reflects their brand and message.
 
       .section-column.rt
-        =image_tag 'icap_promo.png', title:"Web App design/development" , class: "built-image"
+        =image_tag 'icap_promo.png', title:"Web App design/development" , class: "built-image", alt: "ICAP research project"
         %h4 SHIMS Research Database
         %p
           ICAP Swaziland needed a system that would take all of their field data and make it accessible to their office staff. It also needed to generate reports on the progress of their research. Working closely with them, we were able to implement a solution that answered their needs until the end of the research.
 
       .section-column.rt
-        =image_tag 'rosecraft_promo.png', title:"Site Redesign" , class: "built-image"
+        =image_tag 'rosecraft_promo.png', title:"Site Redesign" , class: "built-image", alt: "Rosecraft design"
         %h4 Rosecraft Site Redesign
         %p
           Rosecraft wanted a site that matched their new brand identity, a minimalist design that was easy to understand. Working closely with the company's owner we were able to construct a site and back-end that has made it easy for the owner and her staff to manage.
@@ -103,11 +103,11 @@
     %h1 Clients
   .well.clients
 
-    =image_tag 'icap.png', :title=> "ICAP Swaziland"
-    =image_tag 'undp.png',  :title=> "UNDP Swaziland"
-    =image_tag 'bgp.png' ,:title=> "Big Game Parks"
-    =image_tag 'acfor.png',:title=> "Acfor"
-
+    =image_tag 'icap.png', :title=>   "ICAP Swaziland", alt: "ICAP Swaziland"
+    =image_tag 'undp.png',  :title=>  "UNDP Swaziland", alt: "UNDP Swaziland"
+    =image_tag 'bgp.png' ,:title=>    "Big Game Parks", alt: "Big Game Parks"
+    =image_tag 'acfor.png',:title=>   "Acfor",          alt: "Acfor",        
+                                                            
 %section.section
   %a{id: 'about'}
     %h1 About Us
@@ -139,7 +139,7 @@
           =link_to '@caultive', "http://twitter.com/caultive" ,:target => :new
     .section-column
       %p
-        =image_tag 'bulb_black.png', :class => 'promo-image'
+        =image_tag 'bulb_black.png', :class => 'promo-image', alt:"Creating solutions for our clients"
 
         Caultive Solutions is a software and web consultancy based in Mbabane, Swaziland. We have worked with both local and international clients. We have business partners and associates based locally in Swaziland, as well as internationally; including Canada and South Africa. You can request one of our agents to contact you either through the methods to your right, or the contact form below.
 
